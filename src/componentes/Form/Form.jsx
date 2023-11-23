@@ -5,6 +5,7 @@ const Form = ({onChage,onSubmit}) => {
     <>
         <form onSubmit={onSubmit}>
             <input type="text"  name='Name' placeholder="What would you like to do?" required onChange={onChage}/>
+            <div className='underline'></div>
             <button>Add</button>
         </form>
     </> 

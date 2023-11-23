@@ -1,4 +1,5 @@
 import { Trash } from "react-bootstrap-icons";
+import './TaskItem.css'
 
 const TaskItem = ({ name, complete, id, handleChange, deleteTask }) => {
   return (

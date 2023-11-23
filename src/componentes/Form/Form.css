@@ -6,6 +6,7 @@ form{
     box-shadow: 0 1px 5px rgba(0, 0, 0, .5);
     border-radius: 1rem;
     transform: translate(0%, -40%);
+    margin-top: 1rem;
 }
 
 input[type="text"]{
@@ -14,10 +15,12 @@ input[type="text"]{
     width: 60%;
     margin: 0 auto;
     display: block;
-    padding: 1rem;
+    padding-top: 1rem;
     font-size: 1.5rem;
-    text-decoration: underline;
     line-height: 1rem ;
+    border: none;
+    outline: none;
+    margin-bottom: 0.4rem;
 }
 
 form button{
@@ -34,4 +37,11 @@ form button{
 form button:hover{
     cursor: pointer;
     background-color: #e94f3d;
+}
+.underline{
+    width: 60%;
+    background-color: black;
+    height: 1px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
 }
