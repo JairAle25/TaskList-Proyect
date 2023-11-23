@@ -5,7 +5,9 @@ td {
     width: 30%;
     padding-right: 2.5rem;
 }
-
+.items{
+    width: 100%;
+}
 .pending,
 .complete {
     border: none;
