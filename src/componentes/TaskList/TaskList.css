@@ -40,38 +40,3 @@ table th {
   width: 25%;
 }
 
-.pending,
-.complete {
-  border: none;
-  padding: 0.3rem;
-  color: white;
-  width: 80px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 10px #9ac0bc;
-  cursor: pointer;
-}
-
-.complete {
-  background-color: green;
-}
-.pending {
-  background-color: #9ac0bc;
-}
-
-.completed {
-  width: 100px;
-}
-
-.basura {
-  border-radius: 50%;
-  border: none;
-}
-
-.basura:hover {
-  cursor: pointer;
-}
-
-.basura img {
-  box-shadow: 2px 2px 2px #e94f3d;
-  border-radius: 50%;
-}
