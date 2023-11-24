@@ -1,4 +1,4 @@
-# Proyecto Final: Lista de Tareas en React - Argentina Programa 4.0
+# <span style="color:red;display:flex;">Proyecto Final: Lista de Tareas en React - Argentina Programa 4.0 <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" style="width:45px;"></img></span>
 
 ## Descripción del Proyecto
 
