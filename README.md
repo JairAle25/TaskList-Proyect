@@ -12,9 +12,9 @@ Este proyecto es el resultado de nuestro esfuerzo colaborativo durante el curso 
 
 ## Tecnologías Utilizadas
 
-- React
-- HTML y CSS
-- Git y GitHub
+- React <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" style="width:23px;">
+- HTML y CSS <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" alt="" width="20px"> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" alt="" width="20px">
+- Git y GitHub <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" style="width:23px;">
 
 ## Link De La Pagina
 
