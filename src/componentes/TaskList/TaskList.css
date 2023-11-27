@@ -1,6 +1,3 @@
-/* 
-HOLA HOLA HOLA HOLA HOLA HHOLA HOLA HOLA HOLA HOLA HHOLA HOLA HOLA HOLA HOLA HHOLA HOLA HOLA HOLA HOLA HOLA 
-*/
 .table-container {
   max-height: 46vh;
   overflow-y: auto;
@@ -10,16 +7,16 @@ table {
   width: 100%;
   background-color: white;
   margin-bottom: 1rem;
-  border-collapse: collapse; /* Cambiado a 'collapse' para evitar espacios entre las celdas */
+  border-collapse: collapse;
   border-radius: 1rem;
   z-index: 1;
-  table-layout: fixed; /* Añadido para fijar el ancho de las columnas */
+  table-layout: fixed; 
 }
 
 th, td {
-  overflow: hidden; /* Añadido para ocultar el contenido que sobresale */
-  word-wrap: break-word; /* Permite saltos de línea dentro de las palabras */
-  white-space: normal; /* Añadido para evitar el salto de línea dentro de las celdas */
+  overflow: hidden;
+  word-wrap: break-word; 
+  white-space: normal;
 }
 
 .table-container table thead {
