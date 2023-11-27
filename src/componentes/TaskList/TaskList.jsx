@@ -24,37 +24,34 @@ const TaskList = ({ taskList, setTaskList }) => {
 
   return (
     <>
-      
-        <div className="box">
-          <div className="subTitle">
-            <h2>Todo List</h2>
-          </div>
-          <div className="scroll">
-            <table>
-              <thead>
-                <tr>
-                  <th className="list">List</th>
-                  <th>Status</th>
-                  <th>Close</th>
-                </tr>
-              </thead>
-                <tbody>
-                      {taskList.map((task) => (
-                        <TaskItem
-                          key={task.Id}
-                          name={task.Name}
-                          complete={task.Complete === "Completed"}
-                          id={task.Id}
-                          handleChange={handleChange}
-                          deleteTask={deleteTask}
-                        ></TaskItem>
-                      ))}
-                </tbody>
-              
-            </table>
-          </div>
+      <div className="box">
+        <div className="subTitle">
+          <h2>Todo List</h2>
         </div>
-      
+        <div className="table-container scroll">
+          <table>
+            <thead>
+              <tr>
+                <th className="list">List</th>
+                <th>Status</th>
+                <th>Close</th>
+              </tr>
+            </thead>
+            <tbody>
+              {taskList.map((task) => (
+                <TaskItem
+                  key={task.Id}
+                  name={task.Name}
+                  complete={task.Complete === "Completed"}
+                  id={task.Id}
+                  handleChange={handleChange}
+                  deleteTask={deleteTask}
+                ></TaskItem>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
     </>
   );
 };
