@@ -46,3 +46,21 @@ form button:hover{
     margin: 0 auto;
     margin-bottom: 1rem;
 }
+
+@media (max-width: 480px){
+    input[type="text"]{
+        width: 75%;
+        font-size: 1rem;
+    }
+    .underline{
+        width: 75%;
+    }
+    form button{
+        width: 120px;
+        font-size: 1rem;
+        padding: .3rem;
+    }
+    form{
+        height: 110px;
+    }
+}

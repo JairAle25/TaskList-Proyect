@@ -1,8 +1,9 @@
 td {
-    padding: 0.5rem;
+    padding: 0.8rem 0;
     line-height: 1.4rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    width: 30%;
+    width: 33%;
+    text-align: center;
 }
 .items{
     width: 100%;
@@ -51,4 +52,11 @@ td {
 .basura img {
     box-shadow: 2px 2px 2px #e94f3d;
     border-radius: 50%;
+}
+
+@media (max-width: 480px){
+    td {
+        padding: 0.8rem 0;
+        line-height: 1.3rem;
+    }
 }

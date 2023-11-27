@@ -9,3 +9,9 @@
 body{
   background-color: #f5f1f0;
 }
+@media (max-width: 480px) {
+  body{
+    width: 95%;
+    margin: 0 auto;
+  }
+}

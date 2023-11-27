@@ -25,4 +25,8 @@ section{
     padding: 1rem 0rem;
     font-size: 1.5rem;
 }
-
+@media (max-width: 480px){
+    .h1-container{
+        font-size: 1.4rem;
+    }
+}
