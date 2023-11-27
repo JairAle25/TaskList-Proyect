@@ -46,7 +46,7 @@ function App() {
           <div className="h1-container">
             <h1>TODO List</h1>
           </div>
-          <Form onChage={onChange} onSubmit={onSubmit}></Form>
+          <Form onChange={onChange} onSubmit={onSubmit}></Form>
           <TaskList taskList={taskList} setTaskList={setTaskList}></TaskList>
         </section>
       </main>
